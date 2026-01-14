@@ -1,0 +1,14 @@
+{
+  "name": "dbms-security-integrity-group65",
+  "version": "1.0.0",
+  "description": "MongoDB (NoSQL) security & integrity prototype: schema validation, checksums, encryption, and experiments.",
+  "main": "mongodb/secure_transaction.js",
+  "scripts": {
+    "run:methodc": "node mongodb/secure_transaction.js",
+    "exp:latency": "node experiments/latency_test.js",
+    "exp:throughput": "node experiments/cpu_usage_test.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
